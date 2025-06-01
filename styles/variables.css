@@ -5,7 +5,7 @@
   --base-fonts: "Inter-Variable", sans-serif;
   --post-title-weight: 700;
   --post-text-weight: 400;
-  --accent-font: "PressStart2P", monospace;
+  --accent-font: "PressStart2P", fantasy;
 
   /*Page gradient*/
   --page-bg-image: 
@@ -18,7 +18,7 @@
   --label-position-top: clamp(1.5625rem, 1.518rem + 0.19vw, 1.6875rem);
   --label-position-right: clamp(0.8125rem, 0.5055rem + 1.31vw, 1.6875rem);
   --button-save-inline-size: clamp(19.125rem, 18.4875rem + 2.7199999999999998vw, 20.9375rem);
-  --dialog-padding-inline: calc(2.3422rem + -0.66vw);
+  --dialog-padding-inline: min(34px, calc(2.3422rem + -0.66vw));
   --dialog-inline-size: clamp(21.3125rem, 21.0477rem + 1.13vw, 22.0625rem);
   --dialog-floppy-size: calc(6.6906rem + -1.8800000000000001vw);
   --header-logo-font-size: clamp(3.0625rem, 2.7109rem + 1.5vw, 4.0625rem);
