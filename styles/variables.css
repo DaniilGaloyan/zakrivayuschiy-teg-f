@@ -1,1 +1,36 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  /*Шрифты*/
+  --base-fonts: "Inter-Variable", sans-serif;
+  --post-title-weight: 700;
+  --post-text-weight: 400;
+  --accent-font: "PressStart2P", monospace;
+
+  /*Page gradient*/
+  --page-bg-image: 
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+  /*Размеры*/
+  --base-width: clamp(23.4375rem, 16.2844rem + 30.520000000000003vw, 43.75rem);
+  --label-position-top: clamp(1.5625rem, 1.518rem + 0.19vw, 1.6875rem);
+  --label-position-right: clamp(0.8125rem, 0.5055rem + 1.31vw, 1.6875rem);
+  --button-save-inline-size: clamp(19.125rem, 18.4875rem + 2.7199999999999998vw, 20.9375rem);
+  --dialog-padding-inline: calc(2.3422rem + -0.66vw);
+  --dialog-inline-size: clamp(21.3125rem, 21.0477rem + 1.13vw, 22.0625rem);
+  --dialog-floppy-size: calc(6.6906rem + -1.8800000000000001vw);
+  --header-logo-font-size: clamp(3.0625rem, 2.7109rem + 1.5vw, 4.0625rem);
+  --header-title-font-size: clamp(0.875rem, 0.6758rem + 0.8500000000000001vw, 1.4375rem);
+  --header-padding-block: clamp(7.5rem, 7.3242rem + 0.75vw, 8rem);
+
+  /*Цвета*/
+  --base-color: #fff;
+  --accent-color: #000;
+  --text-stoke-color: #fff;
+  --border-color: #000;
+  --dialog-backdrop-color: #000;
+  --contour-color: #000;
+  --animation-fill-color: #f00;
+}
